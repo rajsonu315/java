@@ -1,0 +1,30 @@
+<Context path="/ProductionMIS">
+<Resource auth="Container"
+driverClassName="net.sourceforge.jtds.jdbc.Driver"
+maxActive="100" maxIdle="30" name="UbqAppDB"
+type="javax.sql.DataSource"
+url="jdbc:jtds:sqlserver://192.168.20.26:1433;databaseName=Prodmisdb;instance=SQLEXP;"
+username="sa" password="ubqroot"/>
+</Context>
+
+
+
+<!--<Context path="/ProductionMIS">
+<Resource auth="Container"
+driverClassName="net.sourceforge.jtds.jdbc.Driver"
+maxActive="100" maxIdle="30" name="UbqAppDB"
+type="javax.sql.DataSource"
+url="jdbc:jtds:sqlserver://192.168.12.10:1433;databaseName=production_mis_db;"
+username="udaandev" password="BRIT@2012"/>
+</Context>-->
+
+<!--
+<Context path="/ProductionMIS">
+<Resource auth="Container"
+driverClassName="net.sourceforge.jtds.jdbc.Driver"
+maxActive="100" maxIdle="30" name="UbqAppDB"
+type="javax.sql.DataSource"
+url="jdbc:jtds:sqlserver://192.168.10.63:1433;databaseName=Prodmisdb;"
+username="udaandev" password="BRIT@2012"/>
+</Context>
+-->

@@ -1,0 +1,1425 @@
+/* CSS Document */
+
+body {
+    font-family:  Verdana, Arial, Helvetica, sans-serif;
+    font-size: 73%;
+}
+
+.footer {
+    font-size: 75%;
+}
+
+input,select,textarea,.displayText{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #000099;
+}
+
+.oddRow {
+    background-color:#FFFFFF;
+
+}
+
+.oddRow input {
+    background-color:#FFFFFF;
+    border:0;
+}
+
+.evenRow {
+  /*background-color:#E7D7E4;*/
+/*  background-color:#EEE685 ;*/
+  background-color:#DDE2E9;
+
+}
+
+.evenRow input {
+    background-color:#E7D7E4;
+    border:0;
+}
+
+input.apptRowBtn {
+    border:1px solid;
+    background-color:#fed
+}
+
+input.apptCancelBtn {
+    border:1px solid;
+    border-color:gray;
+    color:maroon;
+    font-weight:bold;
+}
+
+.selectedMenu {
+    background-color: yellow;
+    font-weight: bold;
+    color: #000000;
+}
+
+.selectedRow {
+    background-color:yellow;
+}
+
+.selectedRow input {
+    border:1;
+}
+
+.highlightedRow {
+    background-color:#CCFFCC;
+}
+
+.highlightedRow input {
+    background-color:#CCFFCC;
+    border:0;
+}
+
+.formTableHeaderColor   {
+    background-color: #FFFCCC;
+}
+
+#innerTable{
+    background-color: #FFFCCC;
+}
+
+.selectedRow input.apptRowBtn {
+    border:1px solid;
+    background-color:#fed
+}
+
+.selectedRow input.apptCancelBtn {
+    border:1px solid;
+    border-color:gray;
+    color:maroon;
+    font-weight:bold;
+}
+
+.boxShape {
+    border-top: 1px solid #360 ;
+    border-left: 1px solid #360 ;
+    border-right: 1px solid #360 ;
+    border-bottom: 1px solid #360 ;
+    border-color: #999999 ;
+}
+
+a {
+    text-decoration: none;
+    color: #0000CC;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a.selectedLink{
+    font-weight: bold ;
+    background-color: #FFFF66;
+}
+
+a.deSelectedLink{
+    font-weight: normal ;
+    background-color: #FFFFFF;
+}
+
+.mandatoryField{
+    color: #FF0033;
+    font-weight: bold;
+}
+
+.headerEntityName {
+    font-weight: bold;
+}
+
+.displayPointer{
+    cursor: pointer;
+}
+
+.arrow{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: hand;
+}
+
+.deleteCaption{
+    font-weight: bold;
+    color: red;
+    cursor: hand;
+}
+
+.menuHeading{
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #C32020 ;
+    border: 0 ;
+}
+
+.commonbg {
+    background-color: #ABABAB;
+}
+
+.infoButton {
+    cursor:hand;
+    background-color: blue;
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 100%;
+
+}
+
+.infoText{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color:#999999;
+}
+
+.hyperText{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.lineHeading {
+    font-weight: bold;
+}
+
+.menuLink{
+    color: #000000;
+    text-decoration: none;
+    text-indent: 5px;
+    padding-top: 4px ;
+    padding-bottom: 4px;
+}
+
+a.menuLink:hover{
+    text-decoration: underline;
+}
+
+span.menuLink:hover{
+    text-decoration: underline;
+}
+
+.generalLink{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #C32020 ;
+    border: 0 ;
+}
+
+.menuTable{
+    color: #000000;
+    background-color: #CCCCCC ;
+    border: 0 ;
+
+}
+
+.heading{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #36648B; /*#C32020 ;*/
+    border: 0 ;
+}
+
+.subHeading{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #C32020 ;
+    border: 0 ;
+}
+
+.basebg{
+    background-color: #cccccc;
+    color:#000000;
+}
+
+.userInfo{
+    color: #FF0000 ;
+    border: 0 ;
+    cursor: default ;
+    font-style: italic ;
+}
+
+.readOnly{
+    border: 0 ;
+    overflow: hidden ;
+    background-color: transparent;
+    cursor: default ;
+}
+
+.editMode{
+    border: 1 ;
+    overflow: auto;
+    cursor: text;
+}
+
+.visible{
+    visibility: visible;
+    display: block;
+}
+
+.hidden{
+    visibility: hidden;
+    display: none;
+}
+
+div.footer{
+    color: #666666;
+}
+
+.centered {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    margin: auto;
+    background-color: #E0E0E0;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center ;
+    margin: 10px 0 0 0 ;
+    border: #666666 1px solid ;
+}
+
+span.title{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td.inputRow{
+
+}
+
+td.title{
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #C32020;
+}
+
+table.display{
+    border: 1px solid #000000 ;
+}
+
+h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #C32020;
+}
+
+input.smallBtn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+}
+
+.helpText{
+    font-family: Arial, Helvetica, sans-serif ;
+    color: #999999 ;
+}
+
+.smallHelpText{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 75%;
+}
+
+.whiteBG {
+    background-color: #FFFFFF;
+}
+
+.specialRow {
+    /*background-color: #FFFFCC;*/
+    background-color:#6195C1;
+    color: #ffffff;
+    height : 20px ;
+}
+
+.link{
+    cursor:pointer ;
+}
+
+.rightAlignedTextbox {
+    text-align:right;
+}
+
+.mediumSelectBox {
+    width:150px;
+}
+
+.smallSelectBox {
+    width:75px;
+}
+
+.cursorPoint    {
+    cursor:hand;
+}
+
+.errorInfo{
+    color: #FF0000 ;
+    border: 0 ;
+    cursor: default ;
+    font-style: italic ;
+    font-weight: bold;
+}
+
+.validInfo{
+    color: #62C562 ;
+    border: 0 ;
+    cursor: default ;
+    font-weight: bold;
+}
+
+.selectedPatient {
+    font-weight: bold;
+}
+
+.productVersionBig {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.productVersionSmall {
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.loginBox {
+    /*    background-color: #E6E6E6; */
+    background-color: #DBD6EA;
+}
+
+/* AutoSearch CSS */
+
+.suggestion_list
+{
+    background: #E7D7E4;
+    border: 1px solid;
+    cellpadding: 4px;
+    cellspacing: 0px;
+    width: 500px;
+}
+
+.suggestion_list th
+{
+    background: #744A6A;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    width: 25%;
+}
+
+.suggestion_list td
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.suggestion_list a
+{
+    text-decoration: none;
+    color: navy;
+}
+
+.suggestion_list .selected
+{
+    background: navy;
+    color: white;
+}
+
+.suggestion_list .selected a
+{
+    color: white;
+}
+
+#autoSearch
+{
+    display: none;
+}
+
+/* CSS Document */
+
+.tableHeaderColor{
+    background-color: #C32020; /*// #744A6A;*/
+    color: #FFFFFF;
+}
+/*
+.tableHeader{
+	background-color: #C32020; // #744A6A;
+        color : #C32020;
+        font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 120%;
+        font-color : #000000;
+}
+*/
+
+.workAreaBackgroundColor{
+    background-color: #BC96B3;
+}
+.tableBodyColor{
+    background-color: #cccccc;
+}
+.activityBackgroundColor{
+    background-color: #E1CFDD;
+}
+.workTableBodyColor{
+    background-color:#E7D7E4;
+}
+
+.button{
+    height: 2em;
+    width: 6em;
+    border: thin outset ;
+    background-color:#E1CFDD;
+    color:#000000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.bannerHeader{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    font-weight: bold;
+}
+
+.bannerBody{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+}
+
+.titleText{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:#FFFFFF;
+}
+
+.activityHeader{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+    font-weight: bold;
+
+}
+
+.activityBody{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+    font-weight:bold;
+}
+
+.tableHeader{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size:120%;
+    font-weight: bold;
+}
+
+.tableHeaderSmall{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+
+.tableElementHeader{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+.tableElement{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+}
+.tableElement1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold ;
+    color: #000000;
+}
+.fieldGroupHeader{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.label{
+    font-family:  Verdana, Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.labelS{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.labelM{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+.selectionItemHeader{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+.selectionItemBody{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+}
+.textBox{
+    width:180px;
+    height:25px;
+    background-color:#FFFFFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.numberBox {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align:right;
+}
+
+.readOnlyLabel{
+    background-color: yellow;
+    border: none ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.border{
+    border-top:1px solid #360;
+    border-left:1px solid #360;
+    border-bottom:1px solid #360;
+    border-right:1px solid #360;
+    border-color:#999999
+}
+
+.smallLabel{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-decoration:none;
+}
+
+.readOnlyTextBox{
+    background-color: #FFFFFF;
+    border: none ;
+}
+
+.numberTextBox{
+    text-align:right;
+}
+
+.readOnlyTableElement{
+    background-color: #E9E9EB;
+    border: none ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+.deleteButton{
+    height: 1.5em;
+    width: 1.1em;
+    color:red;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.deleteSmallButton {
+    cursor: hand;
+    font-weight: bold;
+    border: 0;
+    color: #FF0000 ;
+    font-style: italic ;
+}
+.visitSmallButton {
+    cursor: hand;
+    border: 0;
+
+}
+.visitSelectedSmallButton {
+    cursor: hand;
+    border: 0;
+    background-color: #A9A9F5;
+}
+
+
+.addSmallButton {
+    cursor: hand;
+    border: 0;
+}
+
+td.displayLabel {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#000000;
+}
+
+.menuListbox{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+.menuButton{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subButton{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.graphSubLabel{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.graphIndicatorText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #0000FF;
+    font-weight: bold;
+
+}
+.graphListbox{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+}
+
+.graphLabels{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.graphBottomLinks{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: blue;
+}
+.graphTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.menuSubLabel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+.menuSubLabel2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #000000;
+}
+
+.msl{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.TSmenuSubLabel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    color: #000000;
+}
+
+.tableBorder{
+    border: 1;
+}
+
+.cellColor{
+    border-style: none;
+    border-width: medium;
+
+}
+
+.menuFont{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+
+.barColor{
+    color: #FFFFFF;
+    background-color: #C32020;
+}
+
+.subBarColor{
+    background-color: #FFFF99;
+}
+
+.subBarText{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.activityTableBackground{
+    background-color: #F6F6F6;
+}
+
+.activityScrollBar{
+    scrollbar-face-color : #F6F6F6;
+    scrollbar-highlight-color : #F6EEF5;
+    scrollbar-darkshadow-color : #F6F6F6;
+    scrollbar-3dlight-color : #000000;
+    scrollbar-shadow-color : #000000;
+}
+
+
+.ActivitySwitchingFont{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+.errorPageTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-weight: bold;
+}
+
+.errorPageMessage{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.errorPageColor{
+    background-color: white;
+}
+
+.portalTabsBGcolor{
+    background-color: #F6F6F6;
+}
+
+.portalTabsBanner{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+
+.portalTabsBanner2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+
+.smallFont{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+.imageLoadMessage{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.tableText{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.tableTextButton{
+
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    height: 2em;
+    width: 5em;
+}
+
+.MDUITableHeaderFont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #C32020;
+    color: #FFFFFF;
+}
+
+.MDUITableHeaderColor{
+    background-color: #C32020;
+}
+.drilldownTableHeaderColor{
+    background-color: #EEEEEE;
+}
+
+.drilldownTableHeaderFont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+}
+.subTableHeaderColor{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #CCCCCC;
+    background-color: #FFFFCC;
+    font-size: 20px;
+}
+.printChartTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:  #CC3333;
+    font-size: 18px;
+}
+
+.printChartSubTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+    font-size: 10px;
+}
+.printGroupBy{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.printIndicatorText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+    font-size: 14px;
+}
+
+.printTableContent{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 13px;
+}
+
+.mainBanner{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+}
+.drillDownTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 120%;
+}
+
+.drillDownTitle2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 120%;
+}
+
+.welcomeFont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.loginPageColor{
+    background-color: #FFFFFF;
+}
+
+.backgroundColor{
+    background-color: white;
+}
+
+.lhsMenuTable {
+    background-color: #FFFFFF;
+}
+
+.lhsMenuTableInset {
+    background-color: #FFFFFF;
+}
+
+.lhsMenuHeader {
+    background-color:#36648B;
+    /*#33A1C9 #C32020 ;*/
+    text-align: left ;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0 ;
+    height: 20px;
+}
+
+.lhsMenuTable a {
+    color: #000000;
+}
+
+.dialogForm {
+    background-color: #E7D7E4;
+}
+
+.dialogForm .tableHeader {
+    background-color: #FFFFCC;
+    color: #000000;
+    font-weight: bold;
+}
+
+.infoBox {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    margin: auto;
+    background-color: #FFFF66; /*#E0E0E0;*/
+    color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center ;
+    margin: 10px 0 0 0 ;
+    border: #666666 1px solid ;
+}
+
+.detailsDiv{
+    background-color:#C9C9FF;
+}
+
+.helpDesk {
+    background-color: #FFFF66;
+}
+.scrollBar {
+    scrollbar-face-color : #E7D7E4;
+    scrollbar-highlight-color : #F6EEF5;
+    scrollbar-darkshadow-color : #E7D7E4;
+    scrollbar-3dlight-color : #BFA1FB;
+    scrollbar-shadow-color : #BFA1FB;
+}
+
+.breadcrumbs_temp{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 80%;
+}
+
+.subItemList {
+    font-size: 100%;
+
+}
+
+.unitString {
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: #999999 ;
+}
+
+
+.subHeader{
+    background-color: #D9D9FF;
+}
+
+.mainHeader{
+    background-color: #B7B7FF;
+}
+
+
+
+.lightHeader{
+    background-color: #F3F3FF;
+}
+.roomBooked {
+    background-color:blue;
+}
+
+.hidenBookingInfo {
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    left: 100px;
+    top: 150px;
+    visibility: hidden;
+    display: none;
+}
+
+.visibleBookingInfo {
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    left: 100px;
+    top: 150px;
+    visibility: visible;
+    display: block;
+    z-index: 0;
+    background-color: #C5C5FF;
+}
+
+.shownPatientInfoAbsolute {
+    position: absolute;
+    width: 700px;
+    height: 150px;
+    visibility: visible;
+    display: block;
+    z-index: 0;
+    background-color: #C5C5FF;
+}
+
+.hiddenPatientInfoAbsolute {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+}
+
+.patientDivCloseButton {
+    color: red;
+    cursor: hand;
+    font-weight: bold;
+}
+
+.patientCentricViewHeader {
+    cursor: hand;
+    background-color: #EFE7FF;
+    height: 25px;
+}
+
+.helpDesk {
+    background-color: #FFFF66;
+}
+
+.innerDiv{
+    background-color:#C5C5FF;
+}
+
+.clickMe {
+    color: blue;
+    cursor:hand;
+}
+
+.maintenanceMsg_1 {
+    background-color: #FFCC00 ;
+    color: #000000 ;
+}
+
+.maintenanceMsg_2 {
+    background-color: #FFFF00 ;
+    color: #000000 ;
+    font-weight: bold;
+}
+
+.maintenanceMsg_3 {
+    background-color: #FFFF00;
+    color: red ;
+    font-weight: bold;
+}
+
+.evenRow input.searchBox {
+    background-color:#ffffff;
+    border:1px solid;
+}
+
+.popupHeader {
+    background-color: #E7D7E4; /* #744A6A;*/
+
+}
+
+.collapseBorder {
+    border-collapse:collapse;
+}
+
+.loadingMessage {
+    background-color: #FFFFCC;
+    border: 1px gray solid;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.popupColor {
+    border: 2px #36648B solid;
+}
+
+tr.popupColor {
+    /*background-color: #9999CC ;*/
+    background-color: #36648B ;
+    text-align: left ;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0 ;
+    height: 20px;
+}
+
+.horizontalScroll {
+    overflow-x: scroll;
+}
+
+.level1 {
+    background-color: #E0D1FE ;
+}
+
+.level2 {
+    background-color: #E8DDFC ;
+}
+
+.level3 {
+    background-color: #F1EBFD ;
+}
+
+.level4 {
+    background-color: #F8F7FB ;
+}
+
+.divBorder {
+    border-width: .1em;
+    border-style: solid;
+    border-color: gray;
+}
+
+.tealRow{
+    background-color: #FFFFCC ;
+}
+
+.inactiveDay {
+    background-color: #CCC0C0 ;
+}
+
+
+.leaveColor {
+    background-color: #CCFFCC ;
+}
+
+.workTableBodyColor .labelTypeDeleteButton {
+    background-color:#E7D7E4;
+}
+
+.workTableBodyColor .labelTypeAddButton {
+    background-color:#E7D7E4;
+}
+
+.scrollBar {
+    scrollbar-face-color : #E7D7E4;
+    scrollbar-highlight-color : #F6EEF5;
+    scrollbar-darkshadow-color : #E7D7E4;
+    scrollbar-3dlight-color : #000000;
+    scrollbar-shadow-color : #000000;
+}
+
+.breadcrumbs{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+.whiteBorder{
+    border-color: white;
+}
+
+.normalText {
+    font-size: 80% ;
+}
+
+.selectedMenu {
+    background-color: yellow;
+    font-weight: bold;
+    color: #000000;
+}
+.categoryColor {
+    color: red;
+}
+.labelFont {
+    Font-weight : bold;
+}
+
+.actualActivity {
+    color: #AE0A9D ;
+}
+
+.plannedActivity {
+    color: #2111B4 ;
+}
+.tableLineItem {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+a[disabled]{ color:Grey; text-decoration:none; }
+a:hover{
+    text-decoration: underline;
+}
+a:hout{
+    text-decoration: none;
+}
+
+.activityBar {
+    background-color:#36648B;/* #4E78A0;*/
+    color : #ffffff;
+    font-weight: bold;
+}
+.bodyBackground{
+    background-color:#C4D5E7;    /*#EBF3FC*/;
+}
+.workingDivColor{
+    background-color: #FFFFFF ;
+}
+.shadow {
+    box-shadow: 4px 4px 4px gray;
+    -webkit-box-shadow: 4px 4px 4px gray;
+    -moz-box-shadow: 4px 4px 4px gray;
+}
+
+.shadowTable{
+    margin: 1px;
+    background-color: rgb(68,68,68); /* Needed for IEs */
+
+    -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+    zoom: 1;
+}
+
+.deviationRejected{
+    background-color: #FEABA3;
+    /*border-color: #FEABA3;
+    border-width: thin;*/
+    font-weight: normal;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.deviationApproved{
+    background-color: #FFEC8B;
+    /*border-color: #FFEC8B;
+    border-width: thin;*/
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.deviationPending{
+    background-color:  #FFA824;
+
+    /*border-color: #FFA824;
+    border-width: thin;*/
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;    
+}
+
+.deviationWorkingDivColor{
+    background-color: #FFFFFF ;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.deviationSundayColor{
+    background-color:  #CDC673 ;/* #CCC0C0 ;*/
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.devPrevNextMonthColor{
+    background-color: #CDC8B1;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.tpCalendarBG {
+    background-color: #BDB76B ;
+}
+
+.dateRowColor {
+    background-color: #E3CF57; /*#FFB00F ;#c0c0c0 ;*/
+    border-radius: 15px;
+}
+
+.sundayColor{
+    background-color:  #CDC673 ; /*#CCC0C0 ;*/
+}
+
+.workingDayColor{
+    background-color: #FFFFFF ;
+}
+.whiteBG {
+    background-color: #FFFFFF;
+}
+
+
+.addButton{
+    background: url('../images/add.png') no-repeat;
+    cursor:pointer;
+    border: none;
+
+}
+.deleteButton{
+    background: url('../images/delete.gif') no-repeat;
+    cursor:pointer;
+    border: none;
+
+}
+.hidden{
+    visibility: hidden;
+    display: none;
+}
+.visible{
+    visibility: visible;
+    display: block;
+}
+.parentParamRow{
+    background-color: #B2CBFF;
+    height: 20px
+}
+.childParamRow{
+    background-color: #EDEDF8;
+    height: 20px
+}
+.submitedMarkCell{
+    background-color:yellow;
+/*    height: 20px*/
+}
+
+.oddRowSpl {
+    background-color:#FFFAFA;
+}
+
+.evenRowSpl {
+    background-color:#F2F2F2;
+}
+/*abid*/
+.auditField{
+   /* border-color: #000;*/
+    background:#f2f2e6;
+    padding:5px;
+    border:1px solid #fff;
+    border-color:#fff #666661 #666661 #fff;
+}
+.auditLegend{
+    background: #bfbf30; /*#4b9cf6;*/
+    color:#fff;
+    font:17px/21px Calibri, Arial, Helvetica, sans-serif;
+    padding:0 10px;
+    font-weight:bold; border:1px solid #fff;
+    border-color:#e5e5c3 #505014 #505014 #e5e5c3;
+}
+
+.ncHeader{
+    font-family: sans-serif;
+    font-size:medium;
+    font-weight: 600;
+    /*color: #4b900f;*/
+}
+   label{
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.myevenRow{
+    background-color: white;
+}
+.myoddRow{
+    background-color: #cbf8f3;
+}
+.myArrow{
+    font-family: sans-serif;
+    cursor: hand;
+}
+.mySpecialRow{
+    background-color:#80b9f8;
+    color: #ffffff;
+    height : 20px
+}
+.paramDesc{
+    font-family: sans-serif;
+    font-size:small;
+    color: #ffffff;
+}
+.header{
+    font-family: sans-serif;
+    color : white;
+    background-color: #6c9ec8;/*#6095c1*/
+}
+
+.ncCost{
+    background-color:#36648B;
+}
+.readOnlyBackground{
+    background-color: lightgray;
+}
